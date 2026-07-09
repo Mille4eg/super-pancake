@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts_Assignment.MainPage"
+             Title="Contacts"
+             BackgroundColor="#F7F2FA">
+
+    <Grid Padding="15">
+        <CollectionView x:Name="ContactsCollectionView"
+                        IsGrouped="True"
+                        SelectionMode="Single"
+                        SelectionChanged="ContactsCollectionView_SelectionChanged">
+
+            <CollectionView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding GroupName}"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           TextColor="#7B5EA7"
+                           Padding="5,15,5,5" />
+                </DataTemplate>
+            </CollectionView.GroupHeaderTemplate>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Stroke="#D8C9EA"
+                            StrokeThickness="1"
+                            BackgroundColor="White"
+                            Padding="12"
+                            Margin="0,6"
+                            StrokeShape="RoundRectangle 18">
+
+                        <HorizontalStackLayout Spacing="15">
+                            <Image Source="{Binding Image}"
+                                   WidthRequest="60"
+                                   HeightRequest="60"
+                                   Aspect="AspectFill" />
+
+                            <Label Text="{Binding Name}"
+                                   FontSize="20"
+                                   TextColor="#3B2F45"
+                                   VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+    </Grid>
+
+</ContentPage>
