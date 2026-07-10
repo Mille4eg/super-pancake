@@ -12,143 +12,151 @@ namespace Contacts_Assignment
 
             Contacts = new ObservableCollection<ContactGroup>
             {
-                new ContactGroup("A")
+                new ContactGroup("C - F")
                 {
                     new Contact
                     {
-                        Name = "Ari Bloom",
+                        Name = "Captain Chips",
                         Image = "pics1.png",
-                        Email = "ari.bloom@email.com",
-                        Phone = "555-100-1001",
-                        Description = "Ari is a cheerful contact who enjoys gardening, photography, and weekend coffee trips."
+                        Email = "captainchips@seagullmail.com",
+                        Phone = "555-0101",
+                        Description = "Captain of the local fry patrol. Has never successfully paid for a french fry."
                     },
                     new Contact
                     {
-                        Name = "Ava Stone",
+                        Name = "Dock Inspector",
                         Image = "pics2.png",
-                        Email = "ava.stone@email.com",
-                        Phone = "555-100-1002",
-                        Description = "Ava is organized, dependable, and always keeps track of important plans."
+                        Email = "dockinspector@seagullmail.com",
+                        Phone = "555-0102",
+                        Description = "Inspects docks professionally. Mostly looking for unattended sandwiches."
                     },
                     new Contact
                     {
-                        Name = "Atlas Reed",
+                        Name = "French Fry Thief",
                         Image = "pics3.png",
-                        Email = "atlas.reed@email.com",
-                        Phone = "555-100-1003",
-                        Description = "Atlas enjoys technology, hiking, and learning new creative skills."
+                        Email = "frenchfrythief@seagullmail.com",
+                        Phone = "555-0103",
+                        Description = "Wanted in seventeen beach towns for grand theft potato."
                     }
                 },
 
-                new ContactGroup("B")
+                new ContactGroup("G")
                 {
                     new Contact
                     {
-                        Name = "Bella Moon",
+                        Name = "Gullbert",
                         Image = "pics4.png",
-                        Email = "bella.moon@email.com",
-                        Phone = "555-200-2001",
-                        Description = "Bella is friendly, artistic, and loves sharing book recommendations."
+                        Email = "gullbert@seagullmail.com",
+                        Phone = "555-0201",
+                        Description = "Polite until food appears."
                     },
                     new Contact
                     {
-                        Name = "Ben Carter",
+                        Name = "Gullfred",
                         Image = "pics1.png",
-                        Email = "ben.carter@email.com",
-                        Phone = "555-200-2002",
-                        Description = "Ben is calm, practical, and usually the first person to solve a problem."
+                        Email = "gullfred@seagullmail.com",
+                        Phone = "555-0202",
+                        Description = "Collects shiny bottle caps and refuses to explain why."
                     },
                     new Contact
                     {
-                        Name = "Briar Lane",
+                        Name = "Gulliam",
                         Image = "pics2.png",
-                        Email = "briar.lane@email.com",
-                        Phone = "555-200-2003",
-                        Description = "Briar has a creative eye and enjoys design, music, and cozy projects."
-                    }
-                },
-
-                new ContactGroup("C")
-                {
-                    new Contact
-                    {
-                        Name = "Cleo Hart",
-                        Image = "pics3.png",
-                        Email = "cleo.hart@email.com",
-                        Phone = "555-300-3001",
-                        Description = "Cleo is energetic, funny, and always brings good ideas to the table."
+                        Email = "gulliam@seagullmail.com",
+                        Phone = "555-0203",
+                        Description = "Pretends to be sophisticated. Still screams at boats."
                     },
                     new Contact
                     {
-                        Name = "Cal Quinn",
+                        Name = "Gullia",
+                        Image = "pics3.png",
+                        Email = "gullia@seagullmail.com",
+                        Phone = "555-0204",
+                        Description = "Will absolutely steal your picnic."
+                    },
+                    new Contact
+                    {
+                        Name = "Gulliver",
                         Image = "pics4.png",
-                        Email = "cal.quinn@email.com",
-                        Phone = "555-300-3002",
-                        Description = "Cal enjoys coding, puzzles, and working on small app ideas."
+                        Email = "gulliver@seagullmail.com",
+                        Phone = "555-0205",
+                        Description = "Dreams of seeing every coastline in the world."
                     },
                     new Contact
                     {
-                        Name = "Cora Finch",
+                        Name = "Gulloria",
                         Image = "pics1.png",
-                        Email = "cora.finch@email.com",
-                        Phone = "555-300-3003",
-                        Description = "Cora is thoughtful, detail-oriented, and loves quiet afternoons."
+                        Email = "gulloria@seagullmail.com",
+                        Phone = "555-0206",
+                        Description = "Queen of dramatic seagull entrances."
                     }
                 },
 
-                new ContactGroup("D")
+                new ContactGroup("H - M")
                 {
                     new Contact
                     {
-                        Name = "Daisy Wells",
+                        Name = "Harbor Karen",
                         Image = "pics2.png",
-                        Email = "daisy.wells@email.com",
-                        Phone = "555-400-4001",
-                        Description = "Daisy is bright, kind, and enjoys cooking and collecting cute stationery."
+                        Email = "harborkaren@seagullmail.com",
+                        Phone = "555-0301",
+                        Description = "Would like to speak to the captain immediately."
                     },
                     new Contact
                     {
-                        Name = "Dante Rivers",
+                        Name = "McGull",
                         Image = "pics3.png",
-                        Email = "dante.rivers@email.com",
-                        Phone = "555-400-4002",
-                        Description = "Dante likes games, teamwork, and finding clever solutions."
+                        Email = "mcgull@seagullmail.com",
+                        Phone = "555-0302",
+                        Description = "No relation to any fast-food restaurants, allegedly."
                     },
                     new Contact
                     {
-                        Name = "Delia Fox",
+                        Name = "Mine Mine",
                         Image = "pics4.png",
-                        Email = "delia.fox@email.com",
-                        Phone = "555-400-4003",
-                        Description = "Delia is confident, stylish, and always ready for a new challenge."
+                        Email = "minemine@seagullmail.com",
+                        Phone = "555-0303",
+                        Description = "Communication skills consist entirely of shouting Mine."
                     }
                 },
 
-                new ContactGroup("E")
+                new ContactGroup("S")
                 {
                     new Contact
                     {
-                        Name = "Eli Moss",
+                        Name = "Seagillian",
                         Image = "pics1.png",
-                        Email = "eli.moss@email.com",
-                        Phone = "555-500-5001",
-                        Description = "Eli is easygoing, reliable, and enjoys learning about new technology."
+                        Email = "seagillian@seagullmail.com",
+                        Phone = "555-0401",
+                        Description = "A very distinguished bird with absolutely no qualifications."
                     },
                     new Contact
                     {
-                        Name = "Ember Vale",
+                        Name = "Sir Squawks-a-Lot",
                         Image = "pics2.png",
-                        Email = "ember.vale@email.com",
-                        Phone = "555-500-5002",
-                        Description = "Ember is creative, bold, and loves colorful design work."
+                        Email = "sirsquawks@seagullmail.com",
+                        Phone = "555-0402",
+                        Description = "Knighted for excessive squawking."
                     },
                     new Contact
                     {
-                        Name = "Ezra Lake",
+                        Name = "Steven Seagull",
                         Image = "pics3.png",
-                        Email = "ezra.lake@email.com",
-                        Phone = "555-500-5003",
-                        Description = "Ezra is curious, thoughtful, and enjoys solving technical problems."
+                        Email = "stevenseagull@seagullmail.com",
+                        Phone = "555-0403",
+                        Description = "The most famous seagull on the boardwalk."
+                    }
+                },
+
+                new ContactGroup("W")
+                {
+                    new Contact
+                    {
+                        Name = "Wing Commander Waffles",
+                        Image = "pics4.png",
+                        Email = "waffles@seagullmail.com",
+                        Phone = "555-0501",
+                        Description = "Somehow always knows exactly where breakfast is being served."
                     }
                 }
             };
@@ -156,11 +164,15 @@ namespace Contacts_Assignment
             ContactsCollectionView.ItemsSource = Contacts;
         }
 
-        private async void ContactsCollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private async void ContactsCollectionView_SelectionChanged(
+            object sender,
+            SelectionChangedEventArgs e)
         {
             if (e.CurrentSelection.FirstOrDefault() is Contact selectedContact)
             {
-                await Navigation.PushAsync(new ContactsDetailsPage(selectedContact));
+                await Navigation.PushAsync(
+                    new ContactsDetailsPage(selectedContact));
+
                 ContactsCollectionView.SelectedItem = null;
             }
         }

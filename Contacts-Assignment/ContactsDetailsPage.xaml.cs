@@ -1,5 +1,3 @@
-using System.Xml;
-
 namespace Contacts_Assignment
 {
     public partial class ContactsDetailsPage : ContentPage

@@ -59,10 +59,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Include=".gitignore" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.8" />
 	</ItemGroup>
